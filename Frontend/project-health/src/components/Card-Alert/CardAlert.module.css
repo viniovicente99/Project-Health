@@ -1,0 +1,18 @@
+
+.alert-card{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 3vh;
+
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 20px;
+    gap: 20px;
+    max-width: 600px;
+    height: 60px;
+
+    background-color: hsl(0, 52%, 89%);
+    border-radius: 10px;
+    color: rgb(226, 10, 10);
+    font-size: 1.1rem;
+}

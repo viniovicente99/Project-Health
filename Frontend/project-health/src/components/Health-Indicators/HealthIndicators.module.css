@@ -1,0 +1,102 @@
+
+.healthIndicatorsWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+
+    box-shadow: 1px 1px 5px 1px rgb(168, 167, 167);
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.indicatorType{
+    margin: 25px;
+
+    font-size: 1rem;
+    font-weight: 800;
+
+}
+
+.indicatorDeadline{
+    margin: 15px;
+
+    font-size: 1rem;
+    font-weight: 800;
+    color: #374151;
+
+}
+
+.indicatorCost{
+    margin: 15px;
+
+    font-size: 1rem;
+    font-weight: 900;
+    color: #374151;
+
+}
+
+.indicatorTeam{
+    margin: 15px;
+
+    font-size: 1rem;
+    font-weight: 800;
+    color: #374151;
+
+}
+
+.indicatorScope{
+    margin: 15px;
+
+    font-size: 1rem;
+    font-weight: 800;
+    color: #374151;
+
+} 
+
+.healthIndicatorItem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.tooltipWrapper {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+
+.noHealthIndicators{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 7px;
+}
+
+.tooltip{
+    position: absolute;
+    bottom: 95%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    background: #4f5052;
+    color: #fff;
+    padding: 6px 10px;
+    border-radius: 6px;
+
+    font-size: 12px;
+    font-weight: 700;
+    white-space: nowrap;
+
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease;
+}
+
+.tooltipWrapper:hover .tooltip{
+    opacity: 1;
+}

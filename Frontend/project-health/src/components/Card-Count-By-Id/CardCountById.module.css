@@ -1,0 +1,30 @@
+
+.card-count-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12vh;
+
+   background-color: #ffffff;
+   box-shadow: 1px 1px 5px 1px rgb(168, 167, 167);
+   border-radius: 10px;
+   gap: 50px;
+
+}
+
+.total-projects{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 3rem;
+    gap: 10px;
+}
+
+.noStatusCard{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+
+}

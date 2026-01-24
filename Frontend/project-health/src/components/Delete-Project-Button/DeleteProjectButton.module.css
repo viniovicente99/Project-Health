@@ -1,0 +1,53 @@
+
+
+.deleteProject{
+    display: flex;
+
+    transition: all 0.2s ease-in-out;
+
+    height: 40px;
+    vertical-align: middle;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    gap: 12px;
+
+    background-color: rgb(230, 31, 31);
+    border:none;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 700;
+ }
+
+ .buttonWrapper button{
+    border-radius: 25px;
+ }
+
+.deleteProject:hover{
+    cursor: pointer;
+    scale: 1.05;
+    background-color: rgb(194, 32, 32);
+}
+
+.tooltip{
+    position: absolute;
+    bottom: 125%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    background: #6c6e70;
+    color: #fff;
+    padding: 6px 10px;
+    border-radius: 6px;
+
+    font-size: 12px;
+    white-space: nowrap;
+
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease;
+}
+
+.deleteProject:hover .tooltip{
+    opacity: 1;
+}

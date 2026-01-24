@@ -1,0 +1,47 @@
+
+.card-count-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 25px;
+    padding-bottom: 45px;
+    gap: 40px;
+
+   background-color: #ffffff;
+   border-radius: 10px;
+
+}
+
+.total-projects{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5vh;
+
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    border: solid 2px #d3d2d2;
+    border-radius: 10px;
+
+    font-size: 1vh;
+
+}
+
+.total-projects h2,
+.total-projects p {
+    margin: 5px;
+}
+
+.total-projects h2
+ {
+    font-size: 1rem;
+}
+
+.total-projects p{
+    font-size: 4vh;
+}
+

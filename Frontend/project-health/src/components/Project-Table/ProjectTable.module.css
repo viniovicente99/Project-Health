@@ -1,0 +1,48 @@
+
+td{
+    padding-left: 2vw;
+    padding-right: 2vw;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.statusCell {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.status-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #000000;
+
+    vertical-align: center;
+    width: 6vw;
+    height: 4vh;
+    border-radius: 6px;
+    margin: 0 auto;
+}
+
+table{
+    border-collapse: collapse;
+    width: 80vw;
+    margin: 0 auto;
+    margin-top: 5vh;
+    background-color: #f2f2f2;
+}
+
+th{
+    padding-left: 2vw;
+    padding-right: 2vw;
+    text-align: left;
+    background-color: #bec4d4;
+}
+
+
+tr{
+    height: 8vh;
+    border-top: #E6E3E3 10px solid;
+    border-bottom: #E6E3E3 10px solid;
+}

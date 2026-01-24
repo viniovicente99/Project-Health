@@ -1,0 +1,76 @@
+.card {
+    display: flex;
+    height: 21vh;
+    padding: 20px;
+
+    background-color: #ffffff;
+    box-shadow: 1px 1px 1px 1px #c5bfbf;
+    border-radius: 8px;
+
+
+    transition: all 0.2s ease-in-out;
+}
+
+.cardContent {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.cardDisabled{
+    cursor: default;
+    background-color: #ffffff;
+}
+
+.card:hover{
+    cursor: pointer;
+    scale: 1.03
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+.header h2 {
+    font-size: 1.1rem;
+    margin: 0;
+}
+
+.header h3 {
+    font-size: 0.9rem;
+    margin: 4px 0 0 0;
+    color: #555;
+}
+
+
+.statusButton {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+
+    width: fit-content;
+    height: 32px;
+    padding: 0 20px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.createButtons{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.responsibleAndDate {
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+    font-size: 0.8rem;
+}
+

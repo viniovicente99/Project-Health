@@ -1,0 +1,8 @@
+@import '@fontsource/inter/400.css';
+@import '@fontsource/inter/600.css';
+@import '@fontsource/inter/700.css';
+
+body {
+  background-color: #E6E3E3;
+  font-family: 'Inter', system-ui, sans-serif;
+}

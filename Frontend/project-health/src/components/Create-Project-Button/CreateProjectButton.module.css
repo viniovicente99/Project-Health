@@ -1,0 +1,167 @@
+
+.buttonWrapper{
+    padding: 20px;
+}
+
+.newButton{
+    display: flex;
+
+    transition: all 0.2s ease-in-out;
+
+    height: 50px;
+    vertical-align: middle;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px;
+    gap: 12px;
+
+    background-color: rgb(60, 135, 248);
+    border:none;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 30px;
+
+}
+
+.newButton:hover{
+    cursor: pointer;
+    scale: 1.05;
+    background-color: rgb(34, 103, 207);
+}
+
+.newProjectWrapper{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+
+    transition: all 0.1s ease-in-out;
+}
+
+.titleWrapper{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-weight: 900;
+}
+
+.newProjectWrapper h1{
+    margin: 0;
+}
+
+.newProjectWrapper label, p{
+    margin: 8px 0 15px;
+}
+
+.newProjectWrapper h1{
+    font-size: 1.8rem;
+}
+
+.newProjectWrapper p{
+    font-size: 0.9rem;
+}
+
+.formField{
+    margin-bottom: 10px;
+}
+
+.formField p{
+    color: red;
+    font-size: 0.8rem;
+}
+
+.formField p{
+    margin-top: 3px;
+}
+
+.newProjectWrapper label{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.newProjectWrapper input{
+    width: 95%;
+
+    border-radius: 5px;
+    padding: 8px 15px;
+    border: 2px solid rgb(180, 176, 176);
+
+    font-weight: 600;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.newProjectWrapper ::placeholder{
+    color: #a3a1a1;
+    font-weight: 300;
+}
+
+.newProjectWrapper input:focus {
+  outline: none;
+  border: 2px solid rgb(104, 159, 211);
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.25);
+  padding: 8px 20px;
+  
+  
+  transition: all 0.1s ease-in-out;
+}
+
+.dateWrapper{
+    width: 100%;
+}
+
+.dateInput{
+    width: 100%;
+    max-width: 150px;
+    text-align: center;
+}
+
+
+.formsButtons{
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+    align-items: center;
+}
+
+.cancelButton{
+    border: none;
+    background-color: #fff;
+    color: #3d3c3c;
+    font-size: 1rem;
+}
+
+.cancelButton:hover{
+    cursor: pointer;
+    color: #000;
+    scale: 1.1;
+
+    transition: all 0.2s ease-in-out;
+
+}
+
+.submitButton{
+    display: flex;
+    transition: all 0.2s ease-in-out;
+
+    height: 50px;
+    vertical-align: middle;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px;
+    gap: 12px;
+
+    background-color: rgb(60, 135, 248);
+    border:none;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 30px;
+}
+
+.submitButton:hover{
+    cursor: pointer;
+    scale: 1.05;
+    background-color: rgb(34, 103, 207);
+}
+
