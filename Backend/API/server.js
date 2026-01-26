@@ -1,7 +1,7 @@
 import sequelize from './database/db.js';
 import app from './app.js';
 
-const PORT = process.env.PORT || 7000;
+const PORT = process.env.PORT || 3000;
 
 (async () => {
     try{
@@ -10,8 +10,8 @@ const PORT = process.env.PORT || 7000;
 
         await sequelize.sync({ alter: true});
 
-        app.listen(PORT || 7000, () => {
-            console.log(`Servidor rodando na porta ${PORT || 7000}`);
+        app.listen(PORT || 3000, '0.0.0.0', () => {
+            console.log(`Servidor rodando na porta ${PORT || 3000}`);
         })
 
     } catch (err){

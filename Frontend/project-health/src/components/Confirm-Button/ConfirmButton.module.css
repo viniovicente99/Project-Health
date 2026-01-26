@@ -60,7 +60,7 @@
     padding: 25px;
     gap: 12px;
 
-    background-color: rgb(60, 135, 248);
+    background-color: #e74242;
     border:none;
     color: #ffffff;
     font-size: 15px;
@@ -70,33 +70,24 @@
 }
 
 .cancelButton{
-    display: flex;
+    border: none;
+    background-color: #fff;
+    color: #3d3c3c;
+    font-size: 1rem;
+}
+
+.cancelButton:hover{
+    cursor: pointer;
+    color: #000;
+    scale: 1.1;
 
     transition: all 0.2s ease-in-out;
-
-    height: 50px;
-    vertical-align: middle;
-    align-items: center;
-    padding: 25px;
-    gap: 12px;
-
-    background-color: #eb4949;
-    border:none;
-    color: #ffffff;
-    font-size: 15px;
-    font-weight: 700;
-    border-radius: 30px;
 
 }
 
 .confirmButton:hover{
     cursor: pointer;
     scale: 1.05;
-    background-color: rgb(34, 103, 207);
-}
-
-.cancelButton:hover{
-    cursor: pointer;
-    scale: 1.05;
     background-color: #b93030;
 }
+

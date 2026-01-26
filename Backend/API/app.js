@@ -13,6 +13,7 @@ app.use(cors ({
 
 app.use(express.json());
 
-app.use('/projects', projectRoutes, healthCheckRoutes);
+app.use('/api/projects', projectRoutes);
+app.use('/api/projects', healthCheckRoutes);
 
 export default app;
