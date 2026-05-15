@@ -13,9 +13,10 @@ export function useSummary(){
         setLoading(true);
         const data = await getSummary();
         setSummary(data);
-        setLoading(false);
         } catch (err){
             setError(true);
+        } finally {
+            setLoading(false);
         }
     };
 

@@ -10,16 +10,17 @@ import { CreateProject } from '../../components/Create-Project-Button/CreateProj
 import { useState } from 'react';
 import { CardView } from '../../components/Card-View/CardView';
 import { LoadingScreen } from '../../components/Main-Loading-Screen/MainLoadingScreen.tsx';
+import { ErrorScreen } from '../../components/Main-Error-Screen/MainErrorScreen.tsx';
 
 export function Home() {
-    const { projects, addProject, loadProjects, loading: loadingProjects } = useProjects();
+    const { projects, addProject, loadProjects, error: projectsError, loading: loadingProjects } = useProjects();
     const { summary, error, loading: loadingSummary } = useSummary();
     const [selectedProjectId, setSelectedProjectId] = useState<string | null>(null);
 
     const criticos = summary?.data.find(item => item.label === 'Crítico')?.value ?? 0;
 
     if (loadingProjects || loadingSummary) return <LoadingScreen />;
-    if (error) return <p>Erro ao carregar projetos. Tente novamente mais tarde...</p>;
+    if (error || projectsError) return <ErrorScreen />;
     
     return (
         <div className={styles.container}>
