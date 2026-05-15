@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 🧠 Project Health Dashboard
 
 Sistema para monitoramento de saúde de projetos com foco em tomada de decisão rápida, baseado em indicadores visuais e atualizações em tempo real.
@@ -30,6 +31,7 @@ Registro de health checks
 Validação de formulários
 Feedback visual baseado em estado da aplicação
 Atualização reativa da interface
+
 🏗️ Arquitetura
 
 A aplicação segue uma arquitetura desacoplada, com responsabilidades bem definidas:
@@ -87,3 +89,32 @@ Separação de responsabilidades no frontend
 Backend desacoplado
 Banco gerenciado
 Deploy independente por camada
+=======
+🚀 Como saber se um projeto está saudável ou virando problema?
+
+Link para o projeto no ar: http://project-health-frontend.s3-website.us-east-2.amazonaws.com/projects-dashboard
+
+Essa foi a pergunta que utilizei como parâmetro no desenvolvimento do meu Dashboard de Saúde de Projetos, um sistema focado em visualizar rapidamente o status real de projetos — algo muito comum no dia a dia de empresas.
+Desenvolvi o projeto com foco total em Front-End, pensando em:
+
+- Clareza visual,
+- Experiência do usuário,
+- Estados reais da aplicação (loading, erro, vazio),
+- Interação com dados vindos de API.
+
+💡 O que o sistema entrega
+
+✔️ Dashboard com indicadores de saúde (Saudável, Atenção, Crítico),
+✔️ Criação e gerenciamento de projetos,
+✔️ Health checks com validações de formulário,
+✔️ Atualização dinâmica da interface,
+✔️ Feedback visual claro para o usuário.
+
+🛠️ Tecnologias aplicadas
+
+React + TypeScript,
+Componentização e hooks personalizados,
+CSS Modules,
+Consumo de API REST desenvolvida com Node.js,
+Deploy na AWS.
+>>>>>>> b1d365fc3862f51e83c90618893191cb5440fd87
